@@ -1,4 +1,22 @@
 @charset "utf-8";
+header{
+    height:100px;
+    background-color: slategray;
+}
 h1{
-    color:red;
+    float: left;
+    color: snow;
+    margin-left: 300px;
+    font-size: 50px;
+    line-height: 40px;
+}
+ul{
+    line-height: 40px;
+    margin-left: 50px;
+}
+li {
+    list-style: none;
+    float: left;
+    margin-top:40px;
+    margin-left: 50px;
 }
