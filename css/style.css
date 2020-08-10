@@ -55,7 +55,7 @@
     max-width: 1000px;
     margin: 50px auto 30px;
     border-bottom: 3px solid #fff;
-    font-size: 30px;
+    font-size: 35px;
 }
 .news-sentence{
     font-size: 20px;
@@ -81,6 +81,22 @@
     width: 30%;
     text-align: center;
 }
-.QA-area{
+.question-title{
     color: #fff;
+    max-width: 1000px;
+    margin:auto;
+    margin-top: 50px;
+    border-bottom: 3px solid #fff;
+    font-size: 35px;
+}
+.question{
+    max-width: 1000px;
+    margin:auto;
+    margin-top:30px;
+}
+#question-list{
+    font-size:20px;
+}
+.answer{
+    margin-top:10px;
 }
