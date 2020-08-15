@@ -9,7 +9,7 @@
 }
 .header h1{
     color: snow;
-    margin-left: 30%;
+    margin-left: 10%;
     font-size: 50px;
     
 }
@@ -20,6 +20,7 @@
     margin-left: 50px;
     display: flex;
     justify-content: space-between;
+    font-size: 18px;
 }
 .header ul li {
     margin-left:50px;
@@ -48,21 +49,20 @@
     margin: 50px auto 60px;
 }
 .news-area h2{
-    padding: 50px 0 0 25px;
+    margin: auto;
     font-size: 35px;
 }
 .area-title {
     max-width: 1000px;
-    margin: 50px auto 30px;
-    border-bottom: 3px solid #fff;
+    margin: 50px auto 10px;
     font-size: 35px;
 }
 .news-contents{
     font-size: 20px;
-    padding: 10px;
+    margin: auto;
 }
 .news-contents li{
-    margin: 15px;
+    margin: 10px;
 }
 .contents {
     display:flex;
@@ -81,12 +81,14 @@
     width: 30%;
     text-align: center;
 }
+.contents-icon h3{
+    margin-top: 15px;
+    font-size: 18px;
+}
 .question-title{
     color: #fff;
     max-width: 1000px;
-    margin:auto;
-    margin-top: 50px;
-    border-bottom: 3px solid #fff;
+    margin: 50px auto 10px;
     font-size: 35px;
 }
 .question{
