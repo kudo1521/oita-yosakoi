@@ -98,9 +98,11 @@
 }
 dt{
     margin: 15px;
+    cursor: pointer;
 }
 dd{
     margin: 0 15px;
+    display: none;
 }
 .sns{
     color: #fff;
