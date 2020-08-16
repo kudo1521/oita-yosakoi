@@ -26,6 +26,9 @@
 .header ul li {
     margin-left:50px;
 }
+.header ul li:hover{
+    opacity: 0.5;
+}
 body {
     background-color: #3d3d3d;
     color: #fff;
@@ -75,6 +78,9 @@ body {
 .contents img {
     width: 100%;
 }
+.contents img:hover{
+    opacity: 0.5;
+}
 .contents-icon {
     display: block;
     width: 30%;
@@ -83,6 +89,9 @@ body {
 .contents-icon h3{
     margin-top: 15px;
     font-size: 18px;
+}
+.contents-icon h3:hover{
+    opacity: 0.5;
 }
 .question-title{
     color: #fff;
