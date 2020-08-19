@@ -50,18 +50,15 @@ body {
     margin: 0px auto 15px;
     font-size: 18px;
 }
-.representativegreeting{
+.representative-greeting{
     
 }
-.representativegreeting p {
+.representative-greeting p {
     max-width: 1000px;
-    margin: 0px auto 15px;
+    margin: 0px auto ;
     font-size: 18px;
 }
-.representativegreeting span {
-    margin-left: 65%;
-    font-size: 18px;
-}
+
 footer{
     height:250px;
     background-color:#000;
