@@ -51,14 +51,16 @@ body {
     font-size: 18px;
 }
 .representative-greeting{
-    
-}
-.representative-greeting p {
     max-width: 1000px;
     margin: 0px auto ;
+}
+.representative-greeting p {
+    
     font-size: 18px;
 }
-
+.representative-name {
+    text-align: right;
+}
 footer{
     height:250px;
     background-color:#000;
