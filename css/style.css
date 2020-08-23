@@ -144,6 +144,9 @@ footer h1{
     #nav-drawer{
         display: block;
     }
+    .header{
+        height:70px;
+    }
     .header h1 {
         font-size: 40px;
         margin: 0;
@@ -227,10 +230,73 @@ footer h1{
         transform: translateX(0%);/*中身を表示（右へスライド）*/
         box-shadow: 6px 0 25px rgba(0,0,0,.15);
     }
+    .news-area{
+        height: 120px;
+        display: flex;
+        width:90%;
+        border:3px solid #fff;
+        border-radius: 10px;
+        max-width: 1000px;
+        margin: 50px auto 60px;
+    }
+    .news-area h2{
+        margin: auto;
+        font-size: 30px;
+        padding: 0 10px;
+    }
+    .news-contents li {
+        font-size: 15px;
+        margin: 5px;
+    }
+    .area-title {
+        max-width: 1000px;
+        width: 90%;
+        margin: 50px auto 10px;
+        font-size: 30px;
+        border-bottom: 3px solid #fff;
+        padding-bottom: 10px;
+    }
     .contents {
         flex-wrap:wrap;
     }
     .contents-icon {
-        width: 100%;
+        margin: 0% 5%;
+        width: 90%;
+        height: 90%;
+    }
+    .contents-icon h3{
+        margin: 10px auto 40px;
+        font-size: 18px;
+    }
+    .question-title{
+        max-width: 1000px;
+        width: 90%;
+        margin: 50px auto 10px;
+        font-size: 30px;
+        border-bottom: 3px solid #fff;
+        padding-bottom: 10px;
+    }
+    .question{
+        max-width: 1000px;
+        width: 90%;
+        margin:30px auto;
+        font-size: 20px;
+    }
+    .sns{
+        max-width: 1000px;
+        width: 90%;
+        margin: 50px auto 10px;
+        font-size: 30px;
+        border-bottom: 3px solid #fff;
+        padding-bottom: 10px;
+    }
+    footer{
+        height:100px;
+        padding:0 30px;
+    }
+    footer h1{
+        color: snow;
+        margin-left: 10%;
+        font-size: 30px;
     }
 }
