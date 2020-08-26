@@ -7,6 +7,9 @@ body {
     color: #fff;
     font-family: Century,MS Serif,Times New Roman,serif;
 }
+.main{
+    height: 1200px;
+}
 .header{
     height:100px;
     background-color:#000;
@@ -43,11 +46,8 @@ body {
 
 .area-title {
     max-width: 1000px;
-    margin: 100px auto 10px;
+    margin: 150px auto 0px;
     font-size: 35px;
-}
-.about{
-    
 }
 .about p {
     max-width: 1000px;

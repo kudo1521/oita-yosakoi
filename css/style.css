@@ -17,7 +17,7 @@
     font-size: 50px;
     
 }
-.header a{
+.header a {
     color:#fff;
 }
 .header ul{
@@ -144,6 +144,7 @@ footer h1{
     #nav-drawer{
         display: block;
     }
+    
     .header{
         height:70px;
     }
@@ -151,9 +152,16 @@ footer h1{
         font-size: 40px;
         margin: 0;
       }
-    .header li {
+    .header a {
         display: none;
     }
+    #nav-content a { 
+        display: block;
+        color: #000;
+        text-align: center;
+        width: 100%;
+    }
+
     #nav-drawer {
         position: relative;
         left: 40px;
@@ -178,7 +186,7 @@ footer h1{
         height: 3px;/*線の太さ*/
         width: 25px;/*長さ*/
         border-radius: 3px;
-        background: #555;
+        background:#fff;
         display: block;
         content: '';
         cursor: pointer;
