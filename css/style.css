@@ -15,21 +15,22 @@
     color: snow;
     margin-left: 10%;
     font-size: 50px;
+    white-space: nowrap;
     
 }
 .header a {
     color:#fff;
 }
-.header ul{
+.pc-menu ul{
     margin-left: 50px;
     display: flex;
     justify-content: space-between;
     font-size: 18px;
 }
-.header ul li {
+.pc-menu ul li {
     margin-left:50px;
 }
-.header ul li:hover{
+.pc-menu ul li:hover{
     opacity: 0.5;
 }
 body {
@@ -45,8 +46,8 @@ body {
     font-size: 150px;
 }
 .news-area{
-    height: 150px;
     display: flex;
+    align-items: center;
     width:100%;
     border:3px solid #fff;
     border-radius: 10px;
@@ -54,7 +55,6 @@ body {
     margin: 50px auto 60px;
 }
 .news-area h2{
-    margin: auto;
     font-size: 35px;
 }
 .area-title {
@@ -147,7 +147,9 @@ footer h1{
     
     .header{
         height:70px;
+        position: relative;
     }
+
     .header h1 {
         font-size: 40px;
         margin: 0;
@@ -163,8 +165,8 @@ footer h1{
     }
 
     #nav-drawer {
-        position: relative;
-        left: 40px;
+        position: absolute;
+        right:10px;
     }
       
       /*チェックボックス等は非表示に*/
@@ -239,7 +241,6 @@ footer h1{
         box-shadow: 6px 0 25px rgba(0,0,0,.15);
     }
     .news-area{
-        height: 120px;
         display: flex;
         width:90%;
         border:3px solid #fff;
@@ -248,7 +249,6 @@ footer h1{
         margin: 50px auto 60px;
     }
     .news-area h2{
-        margin: auto;
         font-size: 30px;
         padding: 0 10px;
     }
