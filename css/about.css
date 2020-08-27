@@ -24,6 +24,9 @@ body {
     margin-left: 10%;
     font-size: 50px;
 }
+.header h1:hover{
+    opacity: 0.5;
+}
 .header a{
     color:#fff;
 }
