@@ -55,7 +55,7 @@ body {
     border:1px solid #262626;
     border-radius: 10px;
     max-width: 1000px;
-    margin: 50px auto 60px;
+    margin: 50px auto 80px;
 }
 .news-area h2{
     font-size: 35px;
@@ -78,7 +78,7 @@ body {
 .contents {
     display:flex;
     justify-content: space-between;
-    margin: 50px auto;
+    margin: 50px auto 80px;
     max-width: 1000px;
 }
 .contents a{
@@ -112,7 +112,7 @@ body {
 }
 .question{
     max-width: 1000px;
-    margin:50px auto 60px;
+    margin:50px auto 80px;
     font-size: 20px;
 }
 dt{
