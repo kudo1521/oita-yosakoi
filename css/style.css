@@ -74,6 +74,10 @@ body {
 }
 .news-contents li{
     margin: 10px;
+    display: flex;
+}
+.news-contents span {
+    /* display: block; */
 }
 .contents {
     display:flex;
