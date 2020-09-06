@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:0 60px;
+    padding:0 90px 0 70px;
     font-family: Century,MS Serif,Times New Roman,serif;
 }
 #nav-drawer{
@@ -43,11 +43,9 @@ body {
 }
 .top-wrapper {
     text-align: center;
-    height: 80%;
 }
 .top-wrapper img{
     width: 90%;
-    height:100%;
 
 }
 .container h1 {
@@ -173,7 +171,7 @@ footer h1{
     }
     #nav-content a { 
         display: block;
-        color: #000;
+        color: #262626;
         text-align: center;
         width: 100%;
     }
@@ -181,9 +179,16 @@ footer h1{
         display: block;
         margin: 10% 0;
     }
+    .sp-menu li {
+        margin-bottom: 5px;
+    }
+    .sp-menu {
+        display: block;
+        padding: 35% 5%;
+    }
     .sp-menu a {
         display: block;
-        border: 1px solid #000;
+        border: 1px solid #262626;
         width: 100%;
         padding: 10% 0;
     }
@@ -212,10 +217,11 @@ footer h1{
         height: 3px;/*線の太さ*/
         width: 25px;/*長さ*/
         border-radius: 3px;
-        background:#fff;
+        background: #262626;
         display: block;
         content: '';
         cursor: pointer;
+        z-index: 150;
     }
     #nav-open span:before {
         bottom: -8px;
@@ -228,7 +234,7 @@ footer h1{
     #nav-close {
         display: none;/*はじめは隠しておく*/
         position: fixed;
-        z-index: 99;
+        z-index: 50;
         top: 0;/*全体に広がるように*/
         left: 0;
         width: 100%;
@@ -244,10 +250,9 @@ footer h1{
         position: fixed;
         top: 0;
         left: 0;
-        z-index: 9999;/*最前面に*/
-        width: 90%;/*右側に隙間を作る（閉じるカバーを表示）*/
-        max-width: 330px;/*最大幅（調整してください）*/
-        height: 60%;
+        z-index: 100;/*最前面に*/
+        width: 100%;
+        height: 100%;
         background: #fff;/*背景色*/
         transition: .3s ease-in-out;/*滑らかに表示*/
         -webkit-transform: translateX(-105%);
