@@ -1,7 +1,7 @@
 @charset "utf-8";
 .header{
     height:100px;
-    background-color:#262626;
+    background-color:#F3F3F2;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,14 +12,14 @@
     display: none;
 }
 .header h1{
-    color: #F3F3F2;
+    color: #262626;
     margin-left: 10%;
     font-size: 50px;
     white-space: nowrap;
     
 }
 .header a {
-    color:#F3F3F2;
+    color:#262626;
 }
 .pc-menu ul{
     margin-left: 50px;
@@ -41,9 +41,14 @@ body {
     color: #262626;
     font-family: Century,MS Serif,Times New Roman,serif;
 }
+.top-wrapper {
+    text-align: center;
+    height: 80%;
+}
 .top-wrapper img{
-    width:100%;
+    width: 90%;
     height:100%;
+
 }
 .container h1 {
     font-size: 150px;
