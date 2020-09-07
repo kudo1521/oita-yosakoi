@@ -9,23 +9,25 @@ body {
 }
 .header{
     height:100px;
-    background-color:#262626;
+    background-color:#F3F3F2;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:0 60px;
+    padding:0 90px 0 70px;
     font-family: Century,MS Serif,Times New Roman,serif;
 }
 .header h1{
-    color:#F3F3F2;
+    color: #262626;
     margin-left: 10%;
     font-size: 50px;
+    white-space: nowrap;
+    
 }
 .header h1:hover{
     opacity: 0.5;
 }
-.header a{
-    color:#F3F3F2;
+.header a {
+    color:#262626;
 }
 .header ul{
     margin-left: 50px;
@@ -39,8 +41,11 @@ body {
 .header ul li:hover{
     opacity: 0.5;
 }
+.top-wrapper {
+    text-align: center;
+}
 .top-wrapper img{
-    width:100%;
+    width:90%;
     height:100%;
 }
 /* 概要ページ */
