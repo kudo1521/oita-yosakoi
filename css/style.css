@@ -148,7 +148,7 @@ body {
     line-height: 1.5;
     font-size: 18px;
 }
-.under {
+.opened {
     display: inline-block;
     transform: rotateX(180deg);
 }
