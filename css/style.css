@@ -148,6 +148,10 @@ body {
     line-height: 1.5;
     font-size: 18px;
 }
+.under {
+    display: inline-block;
+    transform: rotateX(180deg);
+}
 .sns{
     color: #262626;
     max-width: 1000px;

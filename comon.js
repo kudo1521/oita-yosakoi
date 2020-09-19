@@ -2,7 +2,9 @@ $(function(){
     $("#question-list dt").on("click", function() {
     $(this).next().slideToggle();
     });
-    if($('#question-list dt').hasclass('.under')){
-        $('#question-list dt').removeclass('.under');
-    };
+    $("#question-list dt").click(function(){
+        if($(span).hasClass('under')){
+            $(this).children(span).removeClass('under')
+        };
+    });
 });
