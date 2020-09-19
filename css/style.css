@@ -1,6 +1,6 @@
 @charset "utf-8";
 .header{
-    height:100px;
+    height:80px;
     background-color:#F3F3F2;
     display: flex;
     justify-content: space-between;
@@ -10,6 +10,8 @@
     position: fixed;
     z-index: 2;
     top: 0em;
+    width: 100%;
+    box-sizing: border-box;
 }
 #nav-drawer{
     display: none;
@@ -65,7 +67,7 @@ body {
 }
 .news-area h2{
     font-size: 35px;
-    margin: 0 auto;
+    margin: 0 50px;
 }
 .area-title {
     max-width: 1000px;
@@ -76,11 +78,18 @@ body {
 }
 .news-contents{
     font-size: 18px;
-    margin: 10px auto;
+    margin: 10px 15px 0;
 }
-.news-contents li{
-    margin: 15px;
-    display: flex;
+.news-contents dl {
+    padding: 10px 10px 0;
+}
+.news-contents dt{
+    float: left;
+    margin: 0 15px 20px 0;
+}
+.news-contents dd {
+    margin-left: 120px;
+    margin-bottom: 20px;
 }
 .contents {
     display:flex;
@@ -122,16 +131,16 @@ body {
     margin:50px auto 80px;
     font-size: 20px;
 }
-dt{
+.question dt{
     margin: 15px;
     cursor: pointer;
     max-width: 350px;
     font-size: 18px;
 }
-dt :hover{
+.question dt :hover{
     opacity: 0.5;
 }
-dd{
+.question dd{
     margin: 0 15px;
     display: none;
     border-bottom: 1px solid #262626;
@@ -171,6 +180,7 @@ footer h1{
     }
     .header h1 {
         font-size: 30px;
+        margin: 0em;
     }
     .pc-menu {
         display: none;
@@ -293,11 +303,24 @@ footer h1{
         margin: 50px auto 60px;
     }
     .news-area h2{
-        font-size: 30px;
+        font-size: 25px;
+        margin: 10px;
     }
-    .news-contents li {
-        font-size: 15px;
-        margin: 5px;
+    .news-contents {
+        font-size: 18px;
+        margin: 15px 15px 0;
+    }
+    .news-contents dl {
+        padding: 0em;
+    }
+    .news-contents dt {
+        float: left;
+        margin: 0 10px 15px 0;
+        font-size: 10px;
+    }
+    .news-contents dd {
+        margin: 0 0 15px;
+        font-size: 10px;
     }
     .area-title {
         max-width: 1000px;
